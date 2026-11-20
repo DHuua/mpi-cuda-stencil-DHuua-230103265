@@ -1,0 +1,59 @@
+{
+  "GITHUB_USERNAME": "DHuua",
+  "github_username": "DHuua",
+  "gpu_uuid": "GPU-199166dc-f9a7-4470-d993-8bda687cc647",
+  "instance_seed": "14328922631990855180",
+  "mpi_ranks": 4,
+  "process_grid": [
+    2,
+    2
+  ],
+  "global_grid": [
+    512,
+    512
+  ],
+  "local_padded_shape": [
+    258,
+    258
+  ],
+  "steps": 400,
+  "lambda": 0.15,
+  "dx": 0.001949317738791423,
+  "kappa_max": 0.23999853486123618,
+  "dt_max": 3.958190462458365e-06,
+  "dt": 1.9790952312291825e-06,
+  "energy_trace_overlapped": {
+    "0": 0.1157212367444426,
+    "100": 0.11565325429411397,
+    "200": 0.11561327997771019,
+    "300": 0.11557902880784132,
+    "400": 0.11554758132809936
+  },
+  "energy_trace_serialized": {
+    "0": 0.1157212367444426,
+    "100": 0.11565325429411397,
+    "200": 0.11561327997771019,
+    "300": 0.11557902880784132,
+    "400": 0.11554758132809936
+  },
+  "residual_trace_overlapped": {
+    "0": 34.339499449281526,
+    "100": 8.115691793733687,
+    "200": 7.7855930441348296,
+    "300": 7.610384522388954,
+    "400": 7.468432537797072
+  },
+  "energy_monotone_decreasing": true,
+  "parity_max_diff": 0.0,
+  "serialized_ms": 1146.3638153076172,
+  "overlapped_ms": 1423.2057800292969,
+  "serialized_wall_ms": 1148.295244999872,
+  "overlapped_wall_ms": 1423.300474999678,
+  "overlap_speedup": 0.8054800165890411,
+  "ptx_counts": {
+    "st.shared.f64": 5,
+    "ld.shared.f64": 5,
+    "bar.sync": 1
+  },
+  "ptx_audit_passed": true
+}
